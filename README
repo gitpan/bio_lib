@@ -1,4 +1,18 @@
-#!/usr/bin/perl
+
+                           Bio Perl library
+
+
+Version
+   1.7
+
+Introduction
+
+References
+   http://www.mrc-lmb.cam.ac.uk:80/genomes/jong/bioperl.html
+   ftp://ftp.mrc-lmb.cam.ac.uk/pub/genomes/jong/Software/Bio_lib
+
+
+
 #______________________________________________________________________
 # Title     : B (for Bio) or bio_lib.pl
 # Usage     : require "B.pl"; ##<-- This is very slow, so you'd better
@@ -7,22 +21,7 @@
 #               for sequence handling, Bio_Array.pl for various array
 #               subroutines..), or make your own module out of this, do whatever
 #               you want....
-#
-#             To find out if there are any useful subroutines for you,
-#              just search keywords like
-#              'open_msf_files'
-#                  while msf is a file format much used in multiple
-#                  sequence handling
-#              or  try  open_fasta_files
-#
-#              Then read carefully what they accept and return in the
-#                information box in front of the subroutines.
-#
 # Function  : This has all the sub routines a biomatic has developed.
-#             They are:
-#               1) Very general programming level subroutines
-#               2) Biological sequence handling level subroutines
-#
 #             You can copy any of the sub routines in this file, modify, use
 #             in yours...
 #             PLEASE MODIFY AS FREELY AS YOU WANT !!
@@ -61,4 +60,5 @@
 #
 # Version   : 1.6    (Sept/21/1997)
 #------------------------------------------------------------------
+
 
