@@ -1,0 +1,64 @@
+#!/usr/bin/perl
+#______________________________________________________________________
+# Title     : B (for Bio) or bio_lib.pl
+# Usage     : require "B.pl"; ##<-- This is very slow, so you'd better
+#             copy the subroutines in your prog. or make a smaller lib files
+#               which are classified according to functions(like, Bio_Seq.pl
+#               for sequence handling, Bio_Array.pl for various array
+#               subroutines..), or make your own module out of this, do whatever
+#               you want....
+#
+#             To find out if there are any useful subroutines for you,
+#              just search keywords like
+#              'open_msf_files'
+#                  while msf is a file format much used in multiple
+#                  sequence handling
+#              or  try  open_fasta_files
+#
+#              Then read carefully what they accept and return in the
+#                information box in front of the subroutines.
+#
+# Function  : This has all the sub routines a biomatic has developed.
+#             They are:
+#               1) Very general programming level subroutines
+#               2) Biological sequence handling level subroutines
+#
+#             You can copy any of the sub routines in this file, modify, use
+#             in yours...
+#             PLEASE MODIFY AS FREELY AS YOU WANT !!
+#
+#             " I am the programmer and I will try to debug with all my
+#             efforts if you have any problems with my codes."
+#
+#             All my subroutines are tested in small files
+#             If you want to have such single example program
+#             to see how they really work, pls contact me( A Biomatic )
+#             For example, a file called  'handle_arguments.pl' exists to
+#             test the subroutine 'handle_arguments'. Usually you can find them
+#             in  http://www.mrc-lmb.cam.ac.uk/genomes/jong/B.pl.html
+#
+#             This was meant to be used in Bioperl project, but I did not
+#             have time to make object oriented module out of this. Also,
+#             these procedural subroutines might be easier for a lot of
+#             people.
+#
+# Example   : require "B.pl"; BUT, I recommand you take subroutines out and
+#             use it directly or modify in your programs.
+# Warning   : CopyLEFTed, for the enhancement of Biology, Biomatics, and Science.
+#             This is a development companion, nothing else.
+#             Class is for classification of my subroutines. If it is B, it can
+#             be useful for biological sequence data handling. If it's Utility,
+#             it can also be used for general purpose file handling stuff.
+#             File, Array, Hash,... are my classification items.
+# Keywords  : Biology, perl library, sequence handling lib
+# Options   : nothing (used as subroutine library)
+#             There are certain package structures;
+#               1. Bio is the highest structure. This includes file handling
+#                  and utility stuff, too.
+#               2. Bio::Seq  is rather specific for sequence handling stuff.
+#                  To be sorted and developed later.
+#               3. YOU can add, modify or discuss on this structure anytime :-)
+#
+# Version   : 1.6    (Sept/21/1997)
+#------------------------------------------------------------------
+
