@@ -1,17 +1,19 @@
 
-                           Bio Perl library
+                           Bio Perl Subroutine library
+
 
 
 Version
-   1.7
+   1.8  July 1998
 
 Introduction
 
+
 References
    http://www.mrc-lmb.cam.ac.uk:80/genomes/jong/bioperl.html
+   http://cyrah.med.harvard.edu/B.pl.html
    ftp://ftp.mrc-lmb.cam.ac.uk/pub/genomes/jong/Software/Bio_lib
-
-
+   ftp://cyrah.med.harvard.edu/pub/
 
 #______________________________________________________________________
 # Title     : B (for Bio) or bio_lib.pl
@@ -21,25 +23,24 @@ References
 #               for sequence handling, Bio_Array.pl for various array
 #               subroutines..), or make your own module out of this, do whatever
 #               you want....
-# Function  : This has all the sub routines a biomatic has developed.
+#
+# Function  : This is a comprehensive perl subroutine library developed
+#               under Bioperl project and others.
+#             URL: http://cyrah.med.harvard.edu/Bioperlsub/
+#
+#             This serves as the depository database for various perl subroutines
+#              or algorithms developed in Bioinformatics and Genome projects.
+#
 #             You can copy any of the sub routines in this file, modify, use
 #             in yours...
-#             PLEASE MODIFY AS FREELY AS YOU WANT !!
+#             PLEASE MODIFY AS FREELY AS YOU WANT !! All has the same PERL copyright
 #
-#             " I am the programmer and I will try to debug with all my
-#             efforts if you have any problems with my codes."
-#
-#             All my subroutines are tested in small files
+#             All the subroutines are tested in small files
 #             If you want to have such single example program
 #             to see how they really work, pls contact me( A Biomatic )
 #             For example, a file called  'handle_arguments.pl' exists to
 #             test the subroutine 'handle_arguments'. Usually you can find them
-#             in  http://www.mrc-lmb.cam.ac.uk/genomes/jong/B.pl.html
-#
-#             This was meant to be used in Bioperl project, but I did not
-#             have time to make object oriented module out of this. Also,
-#             these procedural subroutines might be easier for a lot of
-#             people.
+#             in  http://cyrah.med.harvard.edu/B.pl.html
 #
 # Example   : require "B.pl"; BUT, I recommand you take subroutines out and
 #             use it directly or modify in your programs.
@@ -51,14 +52,12 @@ References
 #             File, Array, Hash,... are my classification items.
 # Keywords  : Biology, perl library, sequence handling lib
 # Options   : nothing (used as subroutine library)
-#             There are certain package structures;
-#               1. Bio is the highest structure. This includes file handling
-#                  and utility stuff, too.
-#               2. Bio::Seq  is rather specific for sequence handling stuff.
-#                  To be sorted and developed later.
-#               3. YOU can add, modify or discuss on this structure anytime :-)
 #
-# Version   : 1.6    (Sept/21/1997)
+# Author    : J. Park, Jason Johnson, Sarah Teichmann, Alex Bateman,
+#               Astrid Reinhardt, and anybody contributed.
+#               jong@salt2.med.harvard.edu
+# Category  :
+# Version   : 1.8    (July/7/1998)
 #------------------------------------------------------------------
 
 
